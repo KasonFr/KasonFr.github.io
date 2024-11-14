@@ -66,7 +66,7 @@
 			//////////////////////////////////////////////////////////////////
 
 			// TODO 2 - Variable declarations 
-
+moveBoxTo(PositionX)
 
 
 			/* 
@@ -75,17 +75,21 @@
 			turn it around! 
 			*/
 			function update() {
-
-
-			};
-
+        /* Your code it in increase postionX by 10 */
+		 postionX = postionX + 10
+		MoveBoxTo(postionX)
+		};
+postionX = postionX + 10
 			/* 
 			This Function will be called each time the box is clicked. Each time it is called,
 			it should increase the points total, increase the speed, and move the box to
 			the left side of the screen.
 			*/
 			function handleBoxClick() {
-
+            positionX = 0;
+			points = points + 1;
+			sppeed = speed + 3
+			changeBoxText (points)
 
 			};
 
